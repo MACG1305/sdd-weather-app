@@ -43,7 +43,7 @@ Abra a URL exibida (geralmente `http://localhost:5173`).
 
 > Esta é a **solução de referência** (o app pronto em `src/`). Use-a agora apenas
 > para confirmar que o ambiente funciona. No Desafio 1.6 você vai apagá-la para
-> reconstruir tudo do zero a partir do Module 05.
+> reconstruir tudo do zero a partir do Module 06.
 
 > No Codespaces, a porta 5173 é encaminhada automaticamente e abre um preview.
 
@@ -94,7 +94,7 @@ começar a construção com as mãos livres:
 rm -rf src tests
 ```
 
-A partir do Module 05 você vai recriar `src/` e `tests/` seguindo o fluxo SDD.
+A partir do Module 06 você vai recriar `src/` e `tests/` seguindo o fluxo SDD.
 Os arquivos de configuração (Vite, Tailwind, TypeScript, etc.) permanecem.
 
 **Sucesso:** `src/` e `tests/` não existem mais; o restante do repositório está
@@ -109,7 +109,7 @@ intacto.
 
 ---
 
-## Desafio 1.7 — Habilitar o GitHub Pages (para o Module 10)
+## Desafio 1.7 — Habilitar o GitHub Pages (para o Module 11)
 
 > Faça isto no **seu fork/cópia** do repositório.
 
@@ -117,16 +117,18 @@ intacto.
 2. Em **Build and deployment**, selecione **GitHub Actions**.
 
 **Sucesso:** o Pages está configurado para publicar via Actions. A entrega
-final (Module 10) vai usar isto.
+final (Module 11) vai usar isto.
 
 ---
 
 ## Checklist do módulo
 
 - [ ] Repositório aberto (Codespaces ou local)
-- [ ] `pnpm dev` rodando
+- [ ] `pnpm dev` subiu a aplicação com sucesso (Desafio 1.2 — não roda mais
+      depois do Desafio 1.6, pois `src/` foi removido)
 - [ ] Copilot Chat e Agent Mode funcionando
 - [ ] Agentes e prompts localizados
-- [ ] `lint`, `build` e `test` passando
-- [ ] `src/` e `tests/` removidos para reconstrução
+- [ ] `lint`, `build` e `test` passaram na solução de referência (Desafio 1.5,
+      antes da limpeza — não rode de novo depois do Desafio 1.6)
+- [ ] `src/` e `tests/` removidos para reconstrução (estado final deste módulo)
 - [ ] GitHub Pages habilitado

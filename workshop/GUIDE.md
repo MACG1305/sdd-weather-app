@@ -47,7 +47,12 @@ Cada pasta `module-XX-*/` contém:
 - **Vitest** + **Testing Library** (unit) e **Playwright** (E2E)
 - **Open-Meteo** (geocoding + forecast, sem API key)
 
-## Checklist antes de concluir cada tarefa
+## Checklist antes de concluir cada tarefa de código
+
+> Vale só para os **Modules 06–09** (Code e Test), quando já existe código em
+> `src/`/`tests/`. Nos Modules 02–05 (Discovery, Spec, Plan, Tasks) você produz
+> apenas documentos — não rode `pnpm lint`/`build`/`test` nessa etapa, pois
+> `src/` e `tests/` ainda estarão vazios (removidos no Desafio 1.6).
 
 ```bash
 pnpm lint

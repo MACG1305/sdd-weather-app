@@ -4,7 +4,7 @@
 
 Começar a fase de **Building**: construir os componentes de interface do Weather
 App com React + Tailwind, no tema dark glassmorphism, **mobile-first** — ainda
-com dados estáticos (mock). A integração real com a API vem no Module 06.
+com dados estáticos (mock). A integração real com a API vem no Module 07.
 
 ```text
 Thinking → Planning → Decomposing → Building → Testing → Reviewing → Shipping

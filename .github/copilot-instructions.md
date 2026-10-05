@@ -38,7 +38,12 @@ Antes de implementar qualquer feature, confirme que existe especificação
 - Trate sempre os estados de **loading**, **erro** e **vazio**.
 - Acessibilidade: use roles/labels semânticos e suporte a teclado.
 
-## Checklist de desenvolvimento (rodar antes de concluir uma tarefa)
+## Checklist de desenvolvimento (rodar antes de concluir uma tarefa de código)
+
+> Aplica-se **apenas** quando a tarefa envolve mudanças em `src/` ou `tests/`
+> (fases Code e Test). Tarefas de Discovery, Spec, Plan e Tasks produzem apenas
+> documentos em `specs/`, `plans/` e `tasks/` — não há o que lintar, buildar ou
+> testar nessas fases.
 
 - [ ] `pnpm lint`
 - [ ] `pnpm build`
